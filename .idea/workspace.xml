@@ -20,9 +20,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7a56bf87-2243-45df-97c0-8fc383c01355" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/models/db.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,8 +64,16 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1607354033541</updated>
-      <workItem from="1607354034604" duration="1102000" />
+      <workItem from="1607354034604" duration="3283000" />
     </task>
+    <task id="LOCAL-00001" summary="Initiating my node backend">
+      <created>1607358372884</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1607358372884</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -86,6 +96,10 @@
       </map>
     </option>
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Initiating my node backend" />
+    <option name="LAST_COMMIT_MESSAGE" value="Initiating my node backend" />
+  </component>
   <component name="WindowStateProjectService">
     <state x="578" y="351" key="Github.ShareDialog" timestamp="1607354105039">
       <screen x="0" y="0" width="1440" height="900" />
@@ -95,5 +109,25 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="404" y="159" key="Github.UntrackedFilesDialog/0.0.1440.900@0.0.1440.900" timestamp="1607354117200" />
+    <state width="1419" height="245" key="GridCell.Tab.0.bottom" timestamp="1607360398668">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1419" height="245" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1607360398668" />
+    <state width="1419" height="245" key="GridCell.Tab.0.center" timestamp="1607360398667">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1419" height="245" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1607360398667" />
+    <state width="1419" height="245" key="GridCell.Tab.0.left" timestamp="1607360398666">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1419" height="245" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1607360398666" />
+    <state width="1419" height="245" key="GridCell.Tab.0.right" timestamp="1607360398668">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1419" height="245" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1607360398668" />
+    <state x="93" y="145" key="Vcs.Push.Dialog.v2" timestamp="1607358401494">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="93" y="145" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1607358401494" />
   </component>
 </project>
