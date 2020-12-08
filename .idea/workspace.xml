@@ -19,10 +19,13 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7a56bf87-2243-45df-97c0-8fc383c01355" name="Default Changelist" comment="got this connected and working in 5x less time than it took to get c# working">
+    <list default="true" id="7a56bf87-2243-45df-97c0-8fc383c01355" name="Default Changelist" comment="remembered how to handle url parameters!">
+      <change afterPath="$PROJECT_DIR$/.env" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/db.js" beforeDir="false" afterPath="$PROJECT_DIR$/models/db.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/users.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/users.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -71,7 +74,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1607354033541</updated>
-      <workItem from="1607354034604" duration="5571000" />
+      <workItem from="1607354034604" duration="5616000" />
+      <workItem from="1607433514411" duration="1145000" />
     </task>
     <task id="LOCAL-00001" summary="Initiating my node backend">
       <created>1607358372884</created>
@@ -94,7 +98,14 @@
       <option name="project" value="LOCAL" />
       <updated>1607382310854</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="remembered how to handle url parameters!">
+      <created>1607383510598</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1607383510598</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -116,13 +127,19 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initiating my node backend" />
     <MESSAGE value="got this connected and working in 5x less time than it took to get c# working" />
-    <option name="LAST_COMMIT_MESSAGE" value="got this connected and working in 5x less time than it took to get c# working" />
+    <MESSAGE value="remembered how to handle url parameters!" />
+    <option name="LAST_COMMIT_MESSAGE" value="remembered how to handle url parameters!" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="440" y="256" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1607433858022">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="440" y="256" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1440.900@0.0.1440.900" timestamp="1607433858022" />
     <state x="578" y="351" key="Github.ShareDialog" timestamp="1607354105039">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
@@ -131,29 +148,29 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="404" y="159" key="Github.UntrackedFilesDialog/0.0.1440.900@0.0.1440.900" timestamp="1607354117200" />
-    <state width="1419" height="245" key="GridCell.Tab.0.bottom" timestamp="1607383425675">
+    <state width="1419" height="245" key="GridCell.Tab.0.bottom" timestamp="1607434573761">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1419" height="245" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1607383425675" />
-    <state width="1419" height="245" key="GridCell.Tab.0.center" timestamp="1607383425674">
+    <state width="1419" height="245" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1607434573761" />
+    <state width="1419" height="245" key="GridCell.Tab.0.center" timestamp="1607434573759">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1419" height="245" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1607383425674" />
-    <state width="1419" height="245" key="GridCell.Tab.0.left" timestamp="1607383425673">
+    <state width="1419" height="245" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1607434573759" />
+    <state width="1419" height="245" key="GridCell.Tab.0.left" timestamp="1607434573758">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1419" height="245" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1607383425673" />
-    <state width="1419" height="245" key="GridCell.Tab.0.right" timestamp="1607383425674">
+    <state width="1419" height="245" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1607434573758" />
+    <state width="1419" height="245" key="GridCell.Tab.0.right" timestamp="1607434573760">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1419" height="245" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1607383425674" />
+    <state width="1419" height="245" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1607434573760" />
     <state x="229" y="86" key="SettingsEditor" timestamp="1607360551361">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="229" y="86" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1607360551361" />
-    <state x="93" y="145" key="Vcs.Push.Dialog.v2" timestamp="1607382316819">
+    <state x="93" y="145" key="Vcs.Push.Dialog.v2" timestamp="1607383516306">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="93" y="145" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1607382316819" />
+    <state x="93" y="145" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1607383516306" />
   </component>
 </project>
