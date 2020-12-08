@@ -1,4 +1,6 @@
 const express = require('express');
+const app = express();
+
 const env = require('dotenv').config();
 const path = require('path');
 const cookieParser = require('cookie-parser');
@@ -9,7 +11,7 @@ const usersRouter = require('./routes/users');
 const videosRouter = require('./routes/videos');
 const authRouter = require ('./routes/auth');
 
-const app = express();
+
 
 app.use(express.json);
 app.use(express.urlencoded);

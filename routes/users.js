@@ -19,7 +19,7 @@ router.get('/', function (req, res, next) {
 });
 
 //get single user by id
-router.get('/:userid', (req, res, next) => {
+router.get('/:userId', (req, res, next) => {
     db.one('Select * FROM voddle.Tblusers WHERE Userid = $1', req.params.userid)
         .then(user => {
             res.status(200).json(user)
@@ -45,10 +45,6 @@ router.post('/', (req, res) => {
     })
     // db.insert()
 })
-
-
-
-
 
 //delete user with certain id
 router.delete('/:userid', (req, res) => {
