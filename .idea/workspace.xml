@@ -79,7 +79,9 @@
       <option name="presentableId" value="Default" />
       <updated>1607354033541</updated>
       <workItem from="1607354034604" duration="5616000" />
-      <workItem from="1607433514411" duration="1544000" />
+      <workItem from="1607433514411" duration="2028000" />
+      <workItem from="1607436056699" duration="98000" />
+      <workItem from="1607436190920" duration="82000" />
     </task>
     <task id="LOCAL-00001" summary="Initiating my node backend">
       <created>1607358372884</created>
@@ -116,7 +118,14 @@
       <option name="project" value="LOCAL" />
       <updated>1607435218963</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="added an environment variable file to protect connection strings. forgot I had to do that oops">
+      <created>1607435552914</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1607435552914</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -156,44 +165,6 @@
     <MESSAGE value="got this connected and working in 5x less time than it took to get c# working" />
     <MESSAGE value="remembered how to handle url parameters!" />
     <MESSAGE value="added an environment variable file to protect connection strings. forgot I had to do that oops" />
-    <option name="LAST_COMMIT_MESSAGE" value="added an environment variable file to protect connection strings. forgot I had to do that oops" />
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="440" y="256" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1607433858022">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state x="440" y="256" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1440.900@0.0.1440.900" timestamp="1607433858022" />
-    <state x="578" y="351" key="Github.ShareDialog" timestamp="1607354105039">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state x="578" y="351" key="Github.ShareDialog/0.0.1440.900@0.0.1440.900" timestamp="1607354105039" />
-    <state x="404" y="159" key="Github.UntrackedFilesDialog" timestamp="1607354117200">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state x="404" y="159" key="Github.UntrackedFilesDialog/0.0.1440.900@0.0.1440.900" timestamp="1607354117200" />
-    <state width="1419" height="245" key="GridCell.Tab.0.bottom" timestamp="1607435236944">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state width="1419" height="245" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1607435236944" />
-    <state width="1419" height="245" key="GridCell.Tab.0.center" timestamp="1607435236941">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state width="1419" height="245" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1607435236941" />
-    <state width="1419" height="245" key="GridCell.Tab.0.left" timestamp="1607435236940">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state width="1419" height="245" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1607435236940" />
-    <state width="1419" height="245" key="GridCell.Tab.0.right" timestamp="1607435236943">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state width="1419" height="245" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1607435236943" />
-    <state x="229" y="86" key="SettingsEditor" timestamp="1607360551361">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state x="229" y="86" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1607360551361" />
-    <state x="93" y="145" key="Vcs.Push.Dialog.v2" timestamp="1607435375069">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state x="93" y="145" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1607435375069" />
+    <option name="LAST_COMMIT_MESSAGE" value="" />
   </component>
 </project>
