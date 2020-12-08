@@ -43,7 +43,7 @@ router.post('/', (req, res) => {
         }
 
     })
-    db.insert()
+    // db.insert()
 })
 
 
