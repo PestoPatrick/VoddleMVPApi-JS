@@ -4,7 +4,7 @@ const router = express.Router();
 
 /* GET home page. */
 router.get('/',function(req, res, next) {
-  db.any('SELECT * FROM voddle.Tblusers')
+  db.many('SELECT * FROM voddle.Tblusers')
       .then(users => {
         console.log(users); // print user object;
         res.status(200).json(users);
