@@ -19,8 +19,9 @@ router.get('/', function (req, res, next) {
 });
 
 //get single user by id
-router.get('/:userId', (req, res, next) => {
-    db.one('Select * FROM voddle.Tblusers WHERE Userid = $1', req.params.userid)
+router.get('/:userid', (req, res, next) => {
+    let userid = req.params.userid;
+    db.one('Select * FROM voddle.Tblusers WHERE userid = $1', userid)
         .then(user => {
             res.status(200).json(user)
         })
