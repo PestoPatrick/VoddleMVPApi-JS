@@ -57,7 +57,6 @@ router.post('/', (req, res) => {
                         Username: username,
                         Email: email,
                         PasswordHash: passwordHash
-
                     })
             })
                 .catch((err) => {
