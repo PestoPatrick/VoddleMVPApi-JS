@@ -18,34 +18,24 @@ router.post('/', (req, res) => {
 
     db.oneOrNone("Select * from voddle.tblusers Where email = $1", [email])
         .then((QResult) => {
-        if (QResult == null) {
-            res.status(404).json({message: 'Email is not associated with an account'})
-        }
-
-        bcrypt.compare(password, QResult.passwordhash, (err, result) => {
-            let accessJWT;
-            // result == true
-            if (result == true) {
-                accessJWT = jwt.sign({
-                    username: QResult.username,
-                    userid: QResult.userid,
-                    jti: uuidv4(),
-                }, process.env.JWTSecret)
-                console.log(accessJWT)
-                res.status(200).json({message: accessJWT})
-            } else {
-                res.status(400).json({message: err})
+            if (QResult == null) {
+                res.status(404).json({message: 'Email is not associated with an account'})
             }
-        })
-            .catch(err => {
-                res.status(500).json({message: err})
+
+            bcrypt.compare(password, QResult.passwordhash, (err, result) => {
+                let accessJWT;
+                // result == true
+                if (result == true) {
+                    accessJWT = jwt.sign({
+                        username: QResult.username,
+                        userid: QResult.userid,
+                    }, process.env.JWTSecret)
+                    console.log(accessJWT)
+                    res.status(200).json({message: accessJWT})
+                }
             })
 
-    })
-        .catch(error => {
-            res.status(500).json({message: error})
         })
-
 
     // res.status(500).json({message:'Theres been a terrible mistake'})
 
