@@ -15,16 +15,10 @@ router.post('/', (req, res) => {
     let email = req.body.Email;
     let password = req.body.Password;
 
-
-    db.oneOrNone("Select * from voddle.tblusers Where email = $1", [email])
+    db.one("Select * from voddle.tblusers Where email = $1", [email])
         .then((QResult) => {
-            if (QResult == null) {
-                res.status(404).json({message: 'Email is not associated with an account'})
-            }
-
             bcrypt.compare(password, QResult.passwordhash, (err, result) => {
                 let accessJWT;
-                // result == true
                 if (result == true) {
                     accessJWT = jwt.sign({
                         username: QResult.username,
@@ -32,12 +26,15 @@ router.post('/', (req, res) => {
                     }, process.env.JWTSecret)
                     console.log(accessJWT)
                     res.status(200).json({message: accessJWT})
+                } else {
+                    res.status(404).json({message: 'Error with email or password'})
                 }
             })
-
         })
+    .catch(err => {
+        res.status(500).json({message: 'Error with email or password'})
+    })
 
-    // res.status(500).json({message:'Theres been a terrible mistake'})
 
 })
 
