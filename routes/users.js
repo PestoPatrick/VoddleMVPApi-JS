@@ -5,6 +5,7 @@ const router = express.Router();
 const db = require("../models/db");
 const {v4: uuidv4} = require('uuid')
 const bcrypt = require('bcrypt');
+const JWTValidator = require("../helpers/JWTMiddleware");
 
 
 /* GET all users */
@@ -19,7 +20,7 @@ router.get('/', function (req, res, next) {
 });
 
 //get single user by id
-router.get('/:userid', (req, res, next) => {
+router.get('/:userid', JWTValidator,(req, res, next) => {
     let userid = req.params.userid;
     db.one('Select * FROM voddle.Tblusers WHERE userid = $1', userid)
         .then(user => {
@@ -58,7 +59,7 @@ router.post('/', (req, res) => {
                         res.status(404).send(err);
                     })
                 } else {
-                    return err;
+                    res.status(400).json({message:'Incorrect email or password'})
                 }
 
             })
