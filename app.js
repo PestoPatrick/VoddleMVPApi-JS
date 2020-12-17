@@ -10,7 +10,7 @@ const indexRouter = require('./routes/index');
 const usersRouter = require('./routes/users');
 const videosRouter = require('./routes/videos');
 const authRouter = require ('./routes/auth');
-
+const profilesRouter = require('./routes/profiles')
 
 
 
@@ -24,5 +24,6 @@ app.use('/', indexRouter);
 app.use('/users', usersRouter);
 app.use('/videos', videosRouter);
 app.use('/auth', authRouter);
+app.use('/profiles', profilesRouter);
 
 module.exports = app;
