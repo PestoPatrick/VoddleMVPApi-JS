@@ -10,7 +10,7 @@ function JWTValidator(req, res, next) {
         jwt.verify(token, process.env.JWTSecret, (err, tokeninfo) => {
             if (err) {
                 return res.sendStatus(403);
-            } else if (userid == tokeninfo.userid) {
+            } else if (userid === tokeninfo.userid) {
                 req.tokeninfo = tokeninfo;
                 next();
             } else {
