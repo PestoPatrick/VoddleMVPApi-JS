@@ -19,7 +19,7 @@ function JWTValidator(req, res, next) {
 
         });
     } else {
-        res.sendStatus(401).json({ahhh:'problem in jwt middleware'});
+        res.sendStatus(401);
     }
 }
 

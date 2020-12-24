@@ -11,7 +11,7 @@ router.get('/',function(req, res) {
       })
       .catch(error => {
         console.error(error);
-        res.error();
+        res.sendStatus(500);
       });
 });
 

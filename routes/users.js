@@ -15,7 +15,7 @@ router.get('/', function (req, res, next) {
             res.status(200).json(users)
         })
         .catch(err => {
-            res.error()
+            res.status(500).json({error: err})
         })
 });
 
