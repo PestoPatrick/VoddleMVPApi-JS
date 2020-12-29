@@ -21,8 +21,8 @@ app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'public')));
 
 app.use('/', indexRouter);
-app.use('/users', usersRouter);
-app.use('/videos', videosRouter);
+app.use('/u', usersRouter);
+app.use('/v', videosRouter);
 app.use('/auth', authRouter);
 app.use('/profiles', profilesRouter);
 
